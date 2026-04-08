@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfólio de Cosme Ribeiro - Back-End Developer">
+        <title>Cosme Ribeiro | Back-End Developer</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            mono: ['"Fira Code"', 'monospace'],
+                        },
+                        colors: {
+                            bgMain: '#050508',
+                            bgBox: '#0a0a0f',
+                            borderMain: '#1e1e2e',
+                            accent: '#a78bfa',
+                            gold: '#fbbf24'
+                        },
+                        animation: {
+                            'fade-in': 'fadeInUp 0.8s ease-out forwards',
+                        },
+                        keyframes: {
+                            fadeInUp: {
+                                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                                '100%': { opacity: '1', transform: 'translateY(0)' },
+                            }
+                        }
+                    }
+                }
+            }
+        </script>
+
+        <style>
+            body { font-family: 'Fira Code', monospace; }
+            
+            /* Custom Scrollbar */
+            ::-webkit-scrollbar { width: 6px; }
+            ::-webkit-scrollbar-track { background: #050508; }
+            ::-webkit-scrollbar-thumb { background: #1e1e2e; border-radius: 10px; }
+            ::-webkit-scrollbar-thumb:hover { background: #8b5cf6; }
+        </style>
+    </head>
+
+    <body class="bg-bgMain text-zinc-400 antialiased min-h-screen flex flex-col selection:bg-purple-900/50 selection:text-purple-100">
+
+         <div class="max-w-5xl mx-auto w-full px-4 py-12 flex-grow flex flex-col gap-8">
+
+            <header class="bg-bgBox border border-purple-900/50 rounded-md p-6 transition-all duration-500 hover:border-purple-500 hover:shadow-[0_0_25px_rgba(168,85,247,0.3)] hover:-translate-y-1 animate-fade-in">
+                
+                <div class="flex flex-col md:flex-row items-center text-center md:text-left gap-6 w-full">
+                    
+                    <!-- Foto -->
+                    <div class="relative group shrink-0 cursor-default">
+                        <div class="absolute -inset-1 bg-purple-600 rounded-full opacity-30 group-hover:opacity-70 transition duration-500 blur"></div>
+                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFgkDxQ2u1ybg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705168120786?e=2147483647&v=beta&t=r_-CUQeihYBj6NRrwA2akPVXXb3FCDfB6x_aEtO1mB0" 
+                            alt="Foto de perfil de Cosme Ribeiro" 
+                            class="relative w-24 h-24 md:w-28 md:h-28 rounded-full border border-purple-500/50 object-cover group-hover:border-purple-400 transition-all duration-500">
+                    </div>
+
+                    <!-- Nome + Headline -->
+                    <div class="flex-grow flex flex-col justify-center">
+                        <div class="flex items-center justify-center md:justify-start gap-2 mb-2 text-[11px] font-medium text-zinc-500 uppercase tracking-widest">
+                            <span class="text-accent">λ</span> /home/cosme
+                        </div>
+
+                        <h1 class="text-3xl md:text-4xl font-bold text-zinc-100 mb-1 tracking-tight">
+                            Cosme Ribeiro
+                        </h1>
+
+                        <p class="text-[13px] md:text-sm text-gold font-medium">
+                            > Backend Developer (Node.js) | APIs REST | Low-level Enthusiast 
+                            <span class="text-accent animate-pulse font-bold">_</span>
+                        </p>
+                    </div>
+
+                    <!-- Stack -->
+                    <div class="flex flex-col justify-center gap-1 text-[10px] text-zinc-400 border-t md:border-t-0 md:border-l border-purple-900/50 pt-4 md:pt-0 md:pl-5 uppercase tracking-widest bg-zinc-900/20 px-3 py-2 rounded w-full md:w-auto">
+                        <p><span class="text-accent">OS:</span> Arch Linux</p>
+                        <p><span class="text-accent">Shell:</span> Zsh</p>
+                        <p><span class="text-accent">WM:</span> Hyprland</p>
+                        <p><span class="text-accent">Editor:</span> Neovim</p>
+                    </div>
+                </div>
+
+                <!-- Bio -->
+                <div class="mt-6 pt-5 border-t border-purple-900/20">
+                    <p class="text-[13px] md:text-sm text-zinc-400 leading-relaxed font-sans text-left max-w-4xl hover:text-zinc-300 transition">
+                        Desenvolvedor Backend em início de carreira com forte base em lógica de programação e interesse por sistemas de baixo nível.
+                        Tenho experiência na construção de APIs REST utilizando Node.js, além de conhecimento em bancos de dados relacionais e não relacionais.
+                        Minha base em C/C++ me permite compreender melhor como o software interage com o hardware, buscando sempre escrever código eficiente e bem estruturado.
+                        Atualmente busco minha primeira oportunidade como desenvolvedor para evoluir tecnicamente, contribuir com projetos reais e aprofundar meus conhecimentos.
+                    </p>
+
+                </div>
+
+            </header>
+
+
+
+            
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </body>
+
+</html>
+        
+       
